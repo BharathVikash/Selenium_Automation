@@ -1,0 +1,286 @@
+2025-06-19 10:30:43.131 [main] INFO  fproject.ExtentReporterSetup - ExtentSparkReporter configured.
+2025-06-19 10:30:43.331 [main] INFO  fproject.ExtentReporterSetup - ExtentReports initialized and attached reporter.
+2025-06-19 10:30:43.331 [main] INFO  fproject.EMICalculatorTests - Extent Report setup complete.
+2025-06-19 10:30:43.357 [main] INFO  fproject.EMICalculatorTests - Loaded configuration from Config.properties.
+2025-06-19 10:30:43.365 [main] INFO  fproject.EMICalculatorTests - Config properties loaded: url=https://emicalculator.net/, loanAmount=1500000, interestRate=9.5, loanTenure=1, emi=20000, fees=10000
+2025-06-19 10:30:48.761 [main] INFO  fproject.EMICalculatorTests - Chrome browser initialized.
+2025-06-19 10:30:48.816 [main] INFO  fproject.EMICalculatorTests - Browser maximized and implicit wait set.
+2025-06-19 10:30:48.876 [main] INFO  fproject.EMICalculatorPage - EMICalculatorPage initialized.
+2025-06-19 10:30:51.402 [main] INFO  fproject.EMICalculatorPage - Navigated to URL: https://emicalculator.net/
+2025-06-19 10:30:51.403 [main] INFO  fproject.EMICalculatorTests - Navigated to EMI Calculator page.
+2025-06-19 10:30:51.434 [main] INFO  fproject.EMICalculatorTests - Starting test: testEMICalculation
+2025-06-19 10:30:51.789 [main] INFO  fproject.EMICalculatorPage - Clicked 'Car Loan' link.
+2025-06-19 10:30:51.791 [main] INFO  fproject.EMICalculatorTests - Navigated to EMI Calculator for car loan.
+2025-06-19 10:30:51.792 [main] INFO  fproject.EMICalculatorTests - Calculated expected EMI: 131525
+2025-06-19 10:30:52.137 [main] INFO  fproject.EMICalculatorPage - Entered loan amount: 1500000
+2025-06-19 10:30:52.294 [main] INFO  fproject.EMICalculatorPage - Entered interest rate: 9.5
+2025-06-19 10:30:52.607 [main] INFO  fproject.EMICalculatorPage - Entered loan tenure: 1
+2025-06-19 10:30:52.608 [main] INFO  fproject.EMICalculatorTests - Entered loan amount: 1500000, interest rate: 9.5, loan tenure: 1
+2025-06-19 10:30:52.890 [main] INFO  fproject.EMICalculatorPage - Scrolled into view and clicked year 2025.
+2025-06-19 10:30:52.890 [main] INFO  fproject.EMICalculatorTests - Scrolled to year 2025 in the amortization table.
+2025-06-19 10:30:52.929 [main] INFO  fproject.EMICalculatorPage - Retrieved first month principal: ₹ 1,19,650
+2025-06-19 10:30:52.969 [main] INFO  fproject.EMICalculatorPage - Retrieved first month interest: ₹ 11,875
+2025-06-19 10:30:52.970 [main] INFO  fproject.EMICalculatorTests - Retrieved first month principal: ₹ 1,19,650 and interest: ₹ 11,875
+2025-06-19 10:30:52.972 [main] INFO  fproject.EMICalculatorTests - Actual EMI from UI: 131525
+2025-06-19 10:30:52.978 [main] INFO  fproject.EMICalculatorTests - EMI matched: 131525
+2025-06-19 10:30:55.167 [main] INFO  fproject.ScreenshotUtils - Screenshot saved: C:\Users\2397981\INTQEA25API001\FinalHackthonProject 3\FinalHackthonProject/test-output/screenshots/EMI_Calculation_Success.png
+2025-06-19 10:30:55.169 [main] INFO  fproject.EMICalculatorTests - Screenshot taken: C:\Users\2397981\INTQEA25API001\FinalHackthonProject 3\FinalHackthonProject/test-output/screenshots/EMI_Calculation_Success.png
+2025-06-19 10:30:55.175 [main] INFO  fproject.EMICalculatorTests - Starting test: testEMICalculatorTab
+2025-06-19 10:30:55.310 [main] INFO  fproject.EMICalculatorPage - Clicked menu dropdown.
+2025-06-19 10:30:55.918 [main] INFO  fproject.EMICalculatorPage - Clicked 'Loan EMI Calculator' link.
+2025-06-19 10:30:56.205 [main] INFO  fproject.EMICalculatorPage - Clicked 'EMI Calculator' tab.
+2025-06-19 10:30:56.205 [main] INFO  fproject.EMICalculatorTests - Clicked Loan EMI Calculator and then EMI Calculator tab.
+2025-06-19 10:30:56.357 [main] INFO  fproject.EMICalculatorPage - Entered loan amount: 1500000
+2025-06-19 10:30:56.432 [main] INFO  fproject.EMICalculatorPage - Retrieved loan amount value: 1500000
+2025-06-19 10:30:56.433 [main] INFO  fproject.EMICalculatorTests - Loan Amount textbox validated: 1500000
+2025-06-19 10:30:56.562 [main] INFO  fproject.EMICalculatorPage - Entered interest rate: 9.5
+2025-06-19 10:30:56.625 [main] INFO  fproject.EMICalculatorPage - Retrieved interest rate value: 9.5
+2025-06-19 10:30:56.626 [main] INFO  fproject.EMICalculatorTests - Interest textbox validated: 9.5
+2025-06-19 10:30:56.742 [main] INFO  fproject.EMICalculatorPage - Entered loan tenure: 1
+2025-06-19 10:30:56.811 [main] INFO  fproject.EMICalculatorPage - Retrieved loan tenure value: 1
+2025-06-19 10:30:56.812 [main] INFO  fproject.EMICalculatorTests - Tenure textbox validated: 1
+2025-06-19 10:30:56.908 [main] INFO  fproject.EMICalculatorPage - Retrieved calculated EMI value: 1,31,525.27
+2025-06-19 10:30:56.910 [main] INFO  fproject.EMICalculatorTests - EMI Value displayed: 1,31,525.27
+2025-06-19 10:30:56.970 [main] INFO  fproject.EMICalculatorPage - Retrieved max tenure in years: 30
+2025-06-19 10:30:56.971 [main] INFO  fproject.EMICalculatorTests - Current max tenure label: 30
+2025-06-19 10:30:57.179 [main] INFO  fproject.EMICalculatorPage - Toggled tenure to months.
+2025-06-19 10:30:57.249 [main] INFO  fproject.EMICalculatorPage - Retrieved max tenure in months: 360
+2025-06-19 10:30:57.250 [main] INFO  fproject.EMICalculatorTests - Tenure successfully toggled from Years (30) to Months (360)
+2025-06-19 10:30:57.251 [main] INFO  fproject.EMICalculatorTests - Validated tenure toggle.
+2025-06-19 10:30:57.682 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loanamountslider']/span
+2025-06-19 10:30:57.682 [main] INFO  fproject.EMICalculatorTests - LoanAmount Slider moved successfully.
+2025-06-19 10:30:58.090 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loaninterestslider']/span
+2025-06-19 10:30:58.091 [main] INFO  fproject.EMICalculatorTests - Interest Slider moved successfully.
+2025-06-19 10:30:58.597 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loantermslider']/span
+2025-06-19 10:30:58.597 [main] INFO  fproject.EMICalculatorTests - Tenure Slider moved successfully.
+2025-06-19 10:30:58.601 [main] INFO  fproject.EMICalculatorTests - Starting test: testLoanAmountCalculatorTab
+2025-06-19 10:30:58.762 [main] INFO  fproject.EMICalculatorPage - Clicked 'Loan Amount Calculator' tab.
+2025-06-19 10:30:58.764 [main] INFO  fproject.EMICalculatorTests - Clicked 'Loan Amount Calculator' tab.
+2025-06-19 10:30:59.086 [main] INFO  fproject.EMICalculatorPage - Entered EMI for loan amount calc: 20000
+2025-06-19 10:30:59.187 [main] INFO  fproject.EMICalculatorPage - Retrieved EMI value for loan amount calc: 20,000.01
+2025-06-19 10:30:59.187 [main] INFO  fproject.EMICalculatorTests - EMI textbox value is 20000.01
+2025-06-19 10:30:59.549 [main] INFO  fproject.EMICalculatorPage - Entered interest rate: 9.5
+2025-06-19 10:30:59.719 [main] INFO  fproject.EMICalculatorPage - Retrieved interest rate value: 9.5
+2025-06-19 10:30:59.719 [main] INFO  fproject.EMICalculatorTests - Interest textbox validated: 9.5
+2025-06-19 10:30:59.935 [main] INFO  fproject.EMICalculatorPage - Entered loan tenure: 1
+2025-06-19 10:31:00.001 [main] INFO  fproject.EMICalculatorPage - Retrieved loan tenure value: 1
+2025-06-19 10:31:00.003 [main] INFO  fproject.EMICalculatorTests - Tenure textbox validated: 1
+2025-06-19 10:31:00.337 [main] INFO  fproject.EMICalculatorPage - Entered fees for loan amount calc: 10000
+2025-06-19 10:31:00.376 [main] INFO  fproject.EMICalculatorPage - Retrieved fees value for loan amount calc: 10000
+2025-06-19 10:31:00.376 [main] INFO  fproject.EMICalculatorTests - Fees textbox validated: 10000
+2025-06-19 10:31:00.771 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loanemislider']/span
+2025-06-19 10:31:00.771 [main] INFO  fproject.EMICalculatorTests - EMI Slider moved successfully.
+2025-06-19 10:31:01.223 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loaninterestslider']/span
+2025-06-19 10:31:01.224 [main] INFO  fproject.EMICalculatorTests - Interest Slider moved successfully.
+2025-06-19 10:31:01.666 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loantermslider']/span
+2025-06-19 10:31:01.666 [main] INFO  fproject.EMICalculatorTests - Tenure Slider moved successfully.
+2025-06-19 10:31:01.716 [main] INFO  fproject.EMICalculatorPage - Retrieved max tenure in years: 360
+2025-06-19 10:31:01.716 [main] INFO  fproject.EMICalculatorTests - Current max tenure label: 360
+2025-06-19 10:31:01.777 [main] INFO  fproject.EMICalculatorPage - Toggled tenure to years.
+2025-06-19 10:31:01.803 [main] INFO  fproject.EMICalculatorPage - Retrieved max tenure in years: 30
+2025-06-19 10:31:01.804 [main] INFO  fproject.EMICalculatorTests - Tenure successfully toggled from Months (360) to Years (30)
+2025-06-19 10:31:01.804 [main] INFO  fproject.EMICalculatorTests - Validated tenure toggle.
+2025-06-19 10:31:02.184 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loanfeesslider']/span
+2025-06-19 10:31:02.184 [main] INFO  fproject.EMICalculatorTests - Fees Slider moved successfully.
+2025-06-19 10:31:02.188 [main] INFO  fproject.EMICalculatorTests - Starting test: testLoanTenureCalculatorTab
+2025-06-19 10:31:02.359 [main] INFO  fproject.EMICalculatorPage - Clicked 'Loan Tenure Calculator' tab.
+2025-06-19 10:31:02.359 [main] INFO  fproject.EMICalculatorTests - Clicked 'Loan Tenure Calculator' tab.
+2025-06-19 10:31:02.492 [main] INFO  fproject.EMICalculatorPage - Entered amount for loan tenure calc: 1500000
+2025-06-19 10:31:02.597 [main] INFO  fproject.EMICalculatorPage - Retrieved amount value for loan tenure calc: 1500000
+2025-06-19 10:31:02.598 [main] INFO  fproject.EMICalculatorTests - Amount textbox validated: 1500000
+2025-06-19 10:31:03.021 [main] INFO  fproject.EMICalculatorPage - Entered interest rate: 9.5
+2025-06-19 10:31:03.100 [main] INFO  fproject.EMICalculatorPage - Retrieved interest rate value: 9.5
+2025-06-19 10:31:03.101 [main] INFO  fproject.EMICalculatorTests - Interest textbox validated: 9.5
+2025-06-19 10:31:03.443 [main] INFO  fproject.EMICalculatorPage - Entered EMI for loan tenure calc: 20000
+2025-06-19 10:31:03.524 [main] INFO  fproject.EMICalculatorPage - Retrieved EMI value for loan tenure calc: 20,025.24
+2025-06-19 10:31:03.525 [main] INFO  fproject.EMICalculatorTests - EMI textbox value is 20025.24
+2025-06-19 10:31:03.927 [main] INFO  fproject.EMICalculatorPage - Entered fees for loan tenure calc: 10000
+2025-06-19 10:31:04.072 [main] INFO  fproject.EMICalculatorPage - Retrieved fees value for loan tenure calc: 10000
+2025-06-19 10:31:04.073 [main] INFO  fproject.EMICalculatorTests - Fees textbox validated: 10000
+2025-06-19 10:31:04.504 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loanamountslider']/span
+2025-06-19 10:31:04.505 [main] INFO  fproject.EMICalculatorTests - Amount Slider moved successfully.
+2025-06-19 10:31:05.092 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loaninterestslider']/span
+2025-06-19 10:31:05.092 [main] INFO  fproject.EMICalculatorTests - Interest Slider moved successfully.
+2025-06-19 10:31:05.578 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loanemislider']/span
+2025-06-19 10:31:05.578 [main] INFO  fproject.EMICalculatorTests - EMI Slider moved successfully.
+2025-06-19 10:31:06.044 [main] INFO  fproject.EMICalculatorPage - Moved slider for locator: By.xpath: //*[@id='loanfeesslider']/span
+2025-06-19 10:31:06.045 [main] INFO  fproject.EMICalculatorTests - Fees Slider moved successfully.
+2025-06-19 10:31:06.050 [main] INFO  fproject.EMICalculatorTests - Starting test: testNavigateAndExtractTable
+2025-06-19 10:31:06.271 [main] INFO  fproject.EMICalculatorPage - Clicked menu dropdown.
+2025-06-19 10:31:07.051 [main] INFO  fproject.EMICalculatorPage - Clicked 'Home Loan EMI Calculator' link.
+2025-06-19 10:31:07.051 [main] INFO  fproject.EMICalculatorTests - Navigated to Home Loan EMI Calculator.
+2025-06-19 10:31:07.051 [main] INFO  fproject.EMICalculatorTests - Proceeding with table extraction using default values.
+2025-06-19 10:31:07.155 [main] INFO  fproject.EMICalculatorPage - Scrolled into view year header.
+2025-06-19 10:31:07.155 [main] INFO  fproject.EMICalculatorTests - Scrolled to year header in the payment schedule.
+2025-06-19 10:31:07.188 [main] INFO  fproject.EMICalculatorPage - Payment schedule column count: 7
+2025-06-19 10:31:07.208 [main] INFO  fproject.EMICalculatorPage - Payment schedule row count: 21
+2025-06-19 10:31:07.208 [main] INFO  fproject.EMICalculatorTests - Payment schedule table: 7 columns, 21 rows.
+2025-06-19 10:31:07.747 [main] INFO  fproject.EMICalculatorTests - Created new Excel workbook and sheet 'Payment Schedule'.
+2025-06-19 10:31:07.780 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 1: Year
+2025-06-19 10:31:07.824 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 2: Principal
+(A)
+2025-06-19 10:31:07.841 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 3: Interest
+(B)
+2025-06-19 10:31:07.860 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 4: Taxes, Home Insurance & Maintenance (C)
+2025-06-19 10:31:07.875 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 5: Total Payment
+(A + B + C)
+2025-06-19 10:31:07.895 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 6: Balance
+2025-06-19 10:31:07.917 [main] INFO  fproject.EMICalculatorPage - Payment schedule header value for column 7: Loan Paid To Date
+2025-06-19 10:31:07.940 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 1: 2025
+2025-06-19 10:31:07.969 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 2: ₹ 42,878
+2025-06-19 10:31:08.002 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 3: ₹ 2,09,045
+2025-06-19 10:31:08.023 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 4: ₹ 26,250
+2025-06-19 10:31:08.050 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 5: ₹ 2,78,173
+2025-06-19 10:31:08.072 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 6: ₹ 39,57,122
+2025-06-19 10:31:08.092 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 1, column 7: 1.07%
+2025-06-19 10:31:08.114 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 1: 2026
+2025-06-19 10:31:08.137 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 2: ₹ 78,931
+2025-06-19 10:31:08.162 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 3: ₹ 3,52,938
+2025-06-19 10:31:08.185 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 4: ₹ 45,000
+2025-06-19 10:31:08.213 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 5: ₹ 4,76,868
+2025-06-19 10:31:08.237 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 6: ₹ 38,78,191
+2025-06-19 10:31:08.273 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 2, column 7: 3.05%
+2025-06-19 10:31:08.294 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 1: 2027
+2025-06-19 10:31:08.317 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 2: ₹ 86,335
+2025-06-19 10:31:08.337 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 3: ₹ 3,45,534
+2025-06-19 10:31:08.357 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 4: ₹ 45,000
+2025-06-19 10:31:08.381 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 5: ₹ 4,76,868
+2025-06-19 10:31:08.412 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 6: ₹ 37,91,856
+2025-06-19 10:31:08.431 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 3, column 7: 5.2%
+2025-06-19 10:31:08.452 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 1: 2028
+2025-06-19 10:31:08.476 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 2: ₹ 94,434
+2025-06-19 10:31:08.498 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 3: ₹ 3,37,435
+2025-06-19 10:31:08.523 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 4: ₹ 45,000
+2025-06-19 10:31:08.557 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 5: ₹ 4,76,868
+2025-06-19 10:31:08.585 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 6: ₹ 36,97,422
+2025-06-19 10:31:08.610 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 4, column 7: 7.56%
+2025-06-19 10:31:08.636 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 1: 2029
+2025-06-19 10:31:08.661 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 2: ₹ 1,03,292
+2025-06-19 10:31:08.688 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 3: ₹ 3,28,576
+2025-06-19 10:31:08.710 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 4: ₹ 45,000
+2025-06-19 10:31:08.730 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 5: ₹ 4,76,868
+2025-06-19 10:31:08.755 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 6: ₹ 35,94,130
+2025-06-19 10:31:08.774 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 5, column 7: 10.15%
+2025-06-19 10:31:08.796 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 1: 2030
+2025-06-19 10:31:08.811 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 2: ₹ 1,12,982
+2025-06-19 10:31:08.831 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 3: ₹ 3,18,887
+2025-06-19 10:31:08.867 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 4: ₹ 45,000
+2025-06-19 10:31:08.889 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 5: ₹ 4,76,868
+2025-06-19 10:31:08.926 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 6: ₹ 34,81,148
+2025-06-19 10:31:08.967 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 6, column 7: 12.97%
+2025-06-19 10:31:08.998 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 1: 2031
+2025-06-19 10:31:09.021 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 2: ₹ 1,23,580
+2025-06-19 10:31:09.049 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 3: ₹ 3,08,288
+2025-06-19 10:31:09.106 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 4: ₹ 45,000
+2025-06-19 10:31:09.169 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 5: ₹ 4,76,868
+2025-06-19 10:31:09.210 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 6: ₹ 33,57,568
+2025-06-19 10:31:09.243 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 7, column 7: 16.06%
+2025-06-19 10:31:09.273 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 1: 2032
+2025-06-19 10:31:09.308 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 2: ₹ 1,35,173
+2025-06-19 10:31:09.365 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 3: ₹ 2,96,695
+2025-06-19 10:31:09.405 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 4: ₹ 45,000
+2025-06-19 10:31:09.452 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 5: ₹ 4,76,868
+2025-06-19 10:31:09.508 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 6: ₹ 32,22,395
+2025-06-19 10:31:09.548 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 8, column 7: 19.44%
+2025-06-19 10:31:09.598 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 1: 2033
+2025-06-19 10:31:09.635 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 2: ₹ 1,47,853
+2025-06-19 10:31:09.672 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 3: ₹ 2,84,015
+2025-06-19 10:31:09.709 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 4: ₹ 45,000
+2025-06-19 10:31:09.745 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 5: ₹ 4,76,868
+2025-06-19 10:31:09.772 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 6: ₹ 30,74,542
+2025-06-19 10:31:09.798 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 9, column 7: 23.14%
+2025-06-19 10:31:09.823 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 1: 2034
+2025-06-19 10:31:09.858 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 2: ₹ 1,61,723
+2025-06-19 10:31:09.891 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 3: ₹ 2,70,146
+2025-06-19 10:31:09.925 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 4: ₹ 45,000
+2025-06-19 10:31:09.955 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 5: ₹ 4,76,868
+2025-06-19 10:31:09.990 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 6: ₹ 29,12,819
+2025-06-19 10:31:10.025 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 10, column 7: 27.18%
+2025-06-19 10:31:10.057 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 1: 2035
+2025-06-19 10:31:10.087 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 2: ₹ 1,76,894
+2025-06-19 10:31:10.115 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 3: ₹ 2,54,975
+2025-06-19 10:31:10.150 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 4: ₹ 45,000
+2025-06-19 10:31:10.190 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 5: ₹ 4,76,868
+2025-06-19 10:31:10.226 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 6: ₹ 27,35,925
+2025-06-19 10:31:10.255 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 11, column 7: 31.6%
+2025-06-19 10:31:10.284 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 1: 2036
+2025-06-19 10:31:10.308 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 2: ₹ 1,93,487
+2025-06-19 10:31:10.337 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 3: ₹ 2,38,381
+2025-06-19 10:31:10.364 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 4: ₹ 45,000
+2025-06-19 10:31:10.392 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 5: ₹ 4,76,868
+2025-06-19 10:31:10.420 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 6: ₹ 25,42,438
+2025-06-19 10:31:10.463 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 12, column 7: 36.44%
+2025-06-19 10:31:10.506 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 1: 2037
+2025-06-19 10:31:10.551 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 2: ₹ 2,11,638
+2025-06-19 10:31:10.596 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 3: ₹ 2,20,231
+2025-06-19 10:31:10.634 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 4: ₹ 45,000
+2025-06-19 10:31:10.669 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 5: ₹ 4,76,868
+2025-06-19 10:31:10.704 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 6: ₹ 23,30,800
+2025-06-19 10:31:10.745 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 13, column 7: 41.73%
+2025-06-19 10:31:10.792 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 1: 2038
+2025-06-19 10:31:10.837 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 2: ₹ 2,31,491
+2025-06-19 10:31:10.884 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 3: ₹ 2,00,378
+2025-06-19 10:31:10.932 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 4: ₹ 45,000
+2025-06-19 10:31:10.972 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 5: ₹ 4,76,868
+2025-06-19 10:31:11.008 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 6: ₹ 20,99,309
+2025-06-19 10:31:11.054 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 14, column 7: 47.52%
+2025-06-19 10:31:11.096 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 1: 2039
+2025-06-19 10:31:11.141 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 2: ₹ 2,53,206
+2025-06-19 10:31:11.180 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 3: ₹ 1,78,662
+2025-06-19 10:31:11.218 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 4: ₹ 45,000
+2025-06-19 10:31:11.256 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 5: ₹ 4,76,868
+2025-06-19 10:31:11.298 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 6: ₹ 18,46,103
+2025-06-19 10:31:11.340 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 15, column 7: 53.85%
+2025-06-19 10:31:11.371 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 1: 2040
+2025-06-19 10:31:11.404 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 2: ₹ 2,76,959
+2025-06-19 10:31:11.438 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 3: ₹ 1,54,910
+2025-06-19 10:31:11.472 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 4: ₹ 45,000
+2025-06-19 10:31:11.518 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 5: ₹ 4,76,868
+2025-06-19 10:31:11.555 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 6: ₹ 15,69,144
+2025-06-19 10:31:11.593 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 16, column 7: 60.77%
+2025-06-19 10:31:11.638 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 1: 2041
+2025-06-19 10:31:11.678 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 2: ₹ 3,02,939
+2025-06-19 10:31:11.720 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 3: ₹ 1,28,929
+2025-06-19 10:31:11.759 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 4: ₹ 45,000
+2025-06-19 10:31:11.799 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 5: ₹ 4,76,868
+2025-06-19 10:31:11.843 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 6: ₹ 12,66,205
+2025-06-19 10:31:11.886 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 17, column 7: 68.34%
+2025-06-19 10:31:11.935 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 1: 2042
+2025-06-19 10:31:12.017 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 2: ₹ 3,31,357
+2025-06-19 10:31:12.068 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 3: ₹ 1,00,511
+2025-06-19 10:31:12.097 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 4: ₹ 45,000
+2025-06-19 10:31:12.121 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 5: ₹ 4,76,868
+2025-06-19 10:31:12.152 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 6: ₹ 9,34,847
+2025-06-19 10:31:12.182 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 18, column 7: 76.63%
+2025-06-19 10:31:12.212 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 1: 2043
+2025-06-19 10:31:12.240 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 2: ₹ 3,62,441
+2025-06-19 10:31:12.264 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 3: ₹ 69,428
+2025-06-19 10:31:12.292 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 4: ₹ 45,000
+2025-06-19 10:31:12.314 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 5: ₹ 4,76,868
+2025-06-19 10:31:12.348 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 6: ₹ 5,72,407
+2025-06-19 10:31:12.385 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 19, column 7: 85.69%
+2025-06-19 10:31:12.413 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 1: 2044
+2025-06-19 10:31:12.436 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 2: ₹ 3,96,440
+2025-06-19 10:31:12.455 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 3: ₹ 35,428
+2025-06-19 10:31:12.473 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 4: ₹ 45,000
+2025-06-19 10:31:12.491 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 5: ₹ 4,76,868
+2025-06-19 10:31:12.509 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 6: ₹ 1,75,966
+2025-06-19 10:31:12.528 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 20, column 7: 95.6%
+2025-06-19 10:31:12.546 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 1: 2045
+2025-06-19 10:31:12.563 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 2: ₹ 1,75,966
+2025-06-19 10:31:12.581 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 3: ₹ 3,979
+2025-06-19 10:31:12.612 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 4: ₹ 18,750
+2025-06-19 10:31:12.633 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 5: ₹ 1,98,695
+2025-06-19 10:31:12.649 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 6: ₹ 0
+2025-06-19 10:31:12.665 [main] INFO  fproject.EMICalculatorPage - Payment schedule cell value at row 21, column 7: 100%
+2025-06-19 10:31:12.787 [main] INFO  fproject.EMICalculatorTests - Excel file 'PaymentSchedule.xlsx' written successfully.
+2025-06-19 10:31:12.903 [main] INFO  fproject.ScreenshotUtils - Screenshot saved: C:\Users\2397981\INTQEA25API001\FinalHackthonProject 3\FinalHackthonProject/test-output/screenshots/Table_Extract_Success.png
+2025-06-19 10:31:12.904 [main] INFO  fproject.EMICalculatorTests - Screenshot taken: C:\Users\2397981\INTQEA25API001\FinalHackthonProject 3\FinalHackthonProject/test-output/screenshots/Table_Extract_Success.png
+2025-06-19 10:31:12.906 [main] INFO  fproject.EMICalculatorTests - Starting test: testExcelFileContent
+2025-06-19 10:31:12.907 [main] INFO  fproject.EMICalculatorTests - Verified 'PaymentSchedule.xlsx' exists.
+2025-06-19 10:31:12.991 [main] INFO  fproject.EMICalculatorTests - Opened Excel file and retrieved 'Payment Schedule' sheet.
+2025-06-19 10:31:12.992 [main] INFO  fproject.EMICalculatorTests - Validated Excel sheet is not empty.
+2025-06-19 10:31:12.992 [main] INFO  fproject.EMICalculatorTests - Excel workbook closed.
+2025-06-19 10:31:15.565 [main] INFO  fproject.EMICalculatorTests - WebDriver quit.
+2025-06-19 10:31:16.394 [main] INFO  fproject.ExtentReporterSetup - ExtentReports flushed.
+2025-06-19 10:31:16.394 [main] INFO  fproject.EMICalculatorTests - Extent Report flushed.

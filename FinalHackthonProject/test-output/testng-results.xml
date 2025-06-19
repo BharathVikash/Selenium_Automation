@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-19T10:30:43 IST" name="Suite" finished-at="2025-06-19T10:31:15 IST" duration-ms="32234">
+    <groups>
+    </groups>
+    <test started-at="2025-06-19T10:30:43 IST" name="Test" finished-at="2025-06-19T10:31:15 IST" duration-ms="32234">
+      <class name="fproject.EMICalculatorTests">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:30:43 IST" name="setupReport" finished-at="2025-06-19T10:30:43 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:30:43 IST" name="setupDriver" finished-at="2025-06-19T10:30:51 IST" duration-ms="8063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testEMICalculation()[pri:1, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:30:51 IST" name="testEMICalculation" finished-at="2025-06-19T10:30:55 IST" duration-ms="3751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculation -->
+        <test-method signature="testEMICalculatorTab()[pri:2, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:30:55 IST" name="testEMICalculatorTab" finished-at="2025-06-19T10:30:58 IST" duration-ms="3424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculatorTab -->
+        <test-method signature="testLoanAmountCalculatorTab()[pri:3, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:30:58 IST" name="testLoanAmountCalculatorTab" finished-at="2025-06-19T10:31:02 IST" duration-ms="3585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanAmountCalculatorTab -->
+        <test-method signature="testLoanTenureCalculatorTab()[pri:4, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:31:02 IST" name="testLoanTenureCalculatorTab" finished-at="2025-06-19T10:31:06 IST" duration-ms="3858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanTenureCalculatorTab -->
+        <test-method signature="testNavigateAndExtractTable()[pri:5, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:31:06 IST" name="testNavigateAndExtractTable" finished-at="2025-06-19T10:31:12 IST" duration-ms="6857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateAndExtractTable -->
+        <test-method signature="testExcelFileContent()[pri:6, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:31:12 IST" name="testExcelFileContent" finished-at="2025-06-19T10:31:12 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelFileContent -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:31:12 IST" name="tearDownDriver" finished-at="2025-06-19T10:31:15 IST" duration-ms="2571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:fproject.EMICalculatorTests@45a37759]" started-at="2025-06-19T10:31:15 IST" name="flushReport" finished-at="2025-06-19T10:31:16 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- fproject.EMICalculatorTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
